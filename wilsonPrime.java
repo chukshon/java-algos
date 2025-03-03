@@ -10,12 +10,16 @@
 
 public class wilsonPrime {
     
-    public static long isWilsonPrime(long number){
-
-        return 0;    
+    public static boolean isWilsonPrime(long n){
+          long modulus = n * n;
+        long product = 1;
+        for (long factor = 2; factor < n; factor++)
+            product = (product * factor) % modulus;
+        return product + 1 == modulus;
     }
 
    public static void main(String[] args) {
-    System.out.println("test");
+    System.out.println(isWilsonPrime(1));
+
    }
 }
