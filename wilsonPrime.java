@@ -11,7 +11,7 @@
 public class wilsonPrime {
     
     public static boolean isWilsonPrime(long n){
-          long modulus = n * n;
+        long modulus = n * n;
         long product = 1;
         for (long factor = 2; factor < n; factor++)
             product = (product * factor) % modulus;
