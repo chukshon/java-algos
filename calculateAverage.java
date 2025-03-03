@@ -19,8 +19,8 @@ public class calculateAverage {
     }
 
     public static void main(String[] args) {
-        System.out.println("Testing this code ");
-        
+        int[] array = {1, 2, 3, 4, 5};
+        System.out.println(calculateAverageFunc(array));
     }
 }   
 
