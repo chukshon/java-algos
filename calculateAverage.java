@@ -15,11 +15,7 @@ public class calculateAverage {
             sum += array[i];
         }
 
-        
-
-
-     
-      
+        return (double) sum / arrayLength;
     }
 
     public static void main(String[] args) {
