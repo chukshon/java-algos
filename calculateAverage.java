@@ -7,14 +7,13 @@ public class calculateAverage {
         int arrayLength = array.length;
         int sum = 0;
 
-      if(array.length == 0){
-        return 0;
-      }
+        if(arrayLength == 0){
+            return 0;
+        }
 
-      for(int i = 0; i < arrayLength; i++){
-        sum += array[i];
-      }
-      return sum / arrayLength;
+
+
+     
       
     }
 
