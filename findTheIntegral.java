@@ -6,9 +6,9 @@
 public class findTheIntegral {
 
     public static String findIntegral(int coefficient, int exponent){
-        return "hello";
+        return coefficient/(exponent + 1) + "x^" + (exponent + 1);
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) {            
         System.out.println(findIntegral(3, 2));
-    }
+    }       
 }
