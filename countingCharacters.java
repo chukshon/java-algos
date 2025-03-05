@@ -5,6 +5,8 @@
 public class countingCharacters {
 
     public static int countCharOccurences(String string, char character){
+        int count = 0;
+        char[] stringArray = string.toCharArray();
         return 0;
     }
     public static void main(String[] args) {
