@@ -7,7 +7,12 @@ public class countingCharacters {
     public static int countCharOccurences(String string, char character){
         int count = 0;
         char[] stringArray = string.toCharArray();
-        return 0;
+        for(char c: stringArray){
+            if(c == character){
+                count++;
+            }
+        }
+        return count;
     }
     public static void main(String[] args) {
         
