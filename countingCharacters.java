@@ -15,7 +15,7 @@ public class countingCharacters {
         return count;
     }
     public static void main(String[] args) {
-        
+        System.out.println(countCharOccurences("hello world", 'o'));
     }
     
 }
