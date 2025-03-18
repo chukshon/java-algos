@@ -9,7 +9,10 @@
 public class zeroFuel {
 
     public static boolean zeroFuelMethod(double distanceToPump, double mpg, double fuelLeft){
-        return false;
+        double milesAvailable = mpg * fuelLeft; 
+
+      
+
     }
 
     public static void main(String[] args){
