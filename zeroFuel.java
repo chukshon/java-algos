@@ -11,7 +11,11 @@ public class zeroFuel {
     public static boolean zeroFuelMethod(double distanceToPump, double mpg, double fuelLeft){
         double milesAvailable = mpg * fuelLeft; 
 
-      
+        if(milesAvailable >= distanceToPump){
+            return true;
+        }
+
+        return false;
 
     }
 
