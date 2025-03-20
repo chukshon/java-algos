@@ -7,7 +7,7 @@
 
 public class keepHydrated{
     public static int keepHydratedMethod(double time){
-       return time * 0.5;
+       return (int)(time * 0.5);
     }
 
     public static void main(String[] args){
